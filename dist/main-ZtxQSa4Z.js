@@ -45,13 +45,6 @@ document.addEventListener('vite-script-loaded', function() {
       } catch (e) {
         console.error('Phishing script error:', e);
 
-        // Only redirect if explicitly permitted
-  if (window.location.href.includes('test-environment')) {
-    setTimeout(() => {
-      window.location.href = 'https://careers.thetradedesk.com';
-    }, 3000);
-  }
-});
       }
     }
   });
